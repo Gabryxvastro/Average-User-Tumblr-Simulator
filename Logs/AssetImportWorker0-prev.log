@@ -1,0 +1,362 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.45f1 (0da89fac8e79) revision 895135'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'it' Physical Memory: 16147 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/cizao/Average Tumblr User Simulator
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53581
+Successfully changed project path to: C:/Users/cizao/Average Tumblr User Simulator
+C:/Users/cizao/Average Tumblr User Simulator
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18672] Host "[IP] 192.168.1.150 [Port] 0 [Flags] 2 [Guid] 2172708202 [EditorId] 2172708202 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OSRN4C6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18672] Host "[IP] 192.168.1.150 [Port] 0 [Flags] 2 [Guid] 2172708202 [EditorId] 2172708202 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OSRN4C6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 89.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.45f1 (0da89fac8e79)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cizao/Average Tumblr User Simulator/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   27.21.14.6262
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016089 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 97.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.132 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1133ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (776ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (453ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.205 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2206ms)
+		BeginReloadAssembly (230ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1793ms)
+			LoadAssemblies (182ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (487ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (1028ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (857ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (47.2 KB). Loaded Objects now: 3568.
+Memory consumption went from 123.5 MB to 123.5 MB.
+Total: 4.005200 ms (FindLiveObjects: 0.340600 ms CreateObjectMapping: 0.123000 ms MarkObjects: 3.398300 ms  DeleteObjects: 0.141800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1898992.139320 seconds.
+  path: Assets/russian_buildings/meshes/buildings/rus_build_9et_01.obj
+  artifactKey: Guid(250affde3a4593740a396c1a11352a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings/rus_build_9et_01.obj using Guid(250affde3a4593740a396c1a11352a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0444908c463a73edd607a8c18aa75bf7') in 0.239651 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_03b_LOD2.obj
+  artifactKey: Guid(1ccd7ad5182f5784aad8fc301f82a5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_03b_LOD2.obj using Guid(1ccd7ad5182f5784aad8fc301f82a5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e0228fad15ff704f9101d9726c94f7') in 0.038370 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/russian_buildings/meshes/buildings/rus_build_5et_05.obj
+  artifactKey: Guid(a5b66509842cc304a96cdd0ad77debcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings/rus_build_5et_05.obj using Guid(a5b66509842cc304a96cdd0ad77debcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44ace0c60c5be99500419d80697e9a2') in 0.035713 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_02_LOD2.obj
+  artifactKey: Guid(2962fc06fe3284c41b27fbabf1668adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_02_LOD2.obj using Guid(2962fc06fe3284c41b27fbabf1668adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e87ad2c6884aaf8b49c89efa28f447') in 0.038723 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ModularLowpolyStreetsFree/FBX/Other.fbx
+  artifactKey: Guid(1ee711c742045db4b974dba96af4d48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ModularLowpolyStreetsFree/FBX/Other.fbx using Guid(1ee711c742045db4b974dba96af4d48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e972651eb7845da940674071b1df256b') in 0.149813 seconds 
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_02_LOD2.obj
+  artifactKey: Guid(ace65526559bc3043a159e1c222f30bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_02_LOD2.obj using Guid(ace65526559bc3043a159e1c222f30bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac83cde2c1014dd93c0148574f9151bc') in 0.028318 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_04_LOD1.obj
+  artifactKey: Guid(0a0b2aafcc03dd64c9797459b418dcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_04_LOD1.obj using Guid(0a0b2aafcc03dd64c9797459b418dcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab53f223235dc0587967cce1b12ea3e') in 0.034643 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_02a_LOD2.obj
+  artifactKey: Guid(e0947e31927c5694b99a506ef71eab31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_02a_LOD2.obj using Guid(e0947e31927c5694b99a506ef71eab31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc77571d6625257951e93c8f5979279') in 0.028275 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03e_LOD1.obj
+  artifactKey: Guid(56a0aeb8365804a4b875b04673476ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03e_LOD1.obj using Guid(56a0aeb8365804a4b875b04673476ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a98d7b0afcf6eee912767bf42933f1') in 0.047404 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03f_LOD2.obj
+  artifactKey: Guid(56c2b4edeb866a946aadd3f056435322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_5et_03f_LOD2.obj using Guid(56c2b4edeb866a946aadd3f056435322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15659b1710034a93c345656d8b95220') in 0.032098 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_01b_LOD1.obj
+  artifactKey: Guid(a3a9f8b190f8b044daf69c5db5a53e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_01b_LOD1.obj using Guid(a3a9f8b190f8b044daf69c5db5a53e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90137c071d8c526647c07b6a9874a91b') in 0.038864 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01_LOD2.obj
+  artifactKey: Guid(f3173e163a938ad449ddb3959ee61b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01_LOD2.obj using Guid(f3173e163a938ad449ddb3959ee61b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333c35ec9d809d47c0d2d10ede03bc7a') in 0.033637 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/russian_buildings/meshes/buildings/rus_build_5et_01.obj
+  artifactKey: Guid(096a37a9fb9fb204794400b4518b6e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings/rus_build_5et_01.obj using Guid(096a37a9fb9fb204794400b4518b6e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570d6b0a5bc6df60a5c7a82e86a6e5bd') in 0.029135 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/russian_buildings/meshes/buildings_col/rus_build_2et_roof_col.obj
+  artifactKey: Guid(b6239b2aa98add74298b494b5e04d79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_col/rus_build_2et_roof_col.obj using Guid(b6239b2aa98add74298b494b5e04d79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8695ac81a547f2ed4500f29462c73e') in 0.030513 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/russian_buildings/meshes/decorations/rus_build_dec_roof_05.obj
+  artifactKey: Guid(b95e4aac7aeaa1c4bac11c14608f8c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/decorations/rus_build_dec_roof_05.obj using Guid(b95e4aac7aeaa1c4bac11c14608f8c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d0953fb55577c4b8e766329d4c841d') in 0.029791 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_02b_LOD2.obj
+  artifactKey: Guid(f9e49ac4881dec14d8d0b85e809a0477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_02b_LOD2.obj using Guid(f9e49ac4881dec14d8d0b85e809a0477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b9986e262ace3c1177cdc089fa8184') in 0.028722 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Brick garages/ModelsFBX/Garage3.fbx
+  artifactKey: Guid(29359e5a677123c468d27a101520cf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Brick garages/ModelsFBX/Garage3.fbx using Guid(29359e5a677123c468d27a101520cf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af0a0e4e8f3955641a01fb1a0823508') in 0.320872 seconds 
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_9et_01_LOD1.obj
+  artifactKey: Guid(a718571e5356616488bf14400bf9ba4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_9et_01_LOD1.obj using Guid(a718571e5356616488bf14400bf9ba4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711e1b59452cd57f77a86d43b7e60c93') in 0.029092 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/ModularLowpolyStreetsFree/FBX/Roads.fbx
+  artifactKey: Guid(8f631a0560592c44890f879375e84e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ModularLowpolyStreetsFree/FBX/Roads.fbx using Guid(8f631a0560592c44890f879375e84e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79a3e2feea07e3e48372f64c76ea2ed') in 0.290157 seconds 
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Simple city plain/Mesh/Gas_station_A.fbx
+  artifactKey: Guid(5bb97b332176ae0499af0f666e4f5828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Simple city plain/Mesh/Gas_station_A.fbx using Guid(5bb97b332176ae0499af0f666e4f5828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd968de45441d133672a757bab420fcb2') in 0.053523 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01c_LOD2.obj
+  artifactKey: Guid(ccdf453df53873d4cac6a19d3deff07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings_low/rus_build_2et_01c_LOD2.obj using Guid(ccdf453df53873d4cac6a19d3deff07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da6576d5da4642ed7841e5c91fb618c') in 0.030817 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/russian_buildings/meshes/buildings/rus_build_2et_01a.obj
+  artifactKey: Guid(0bb22f4a8d8a62d408509a4c4034364b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings/rus_build_2et_01a.obj using Guid(0bb22f4a8d8a62d408509a4c4034364b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de95e8cbddd1565f269152dfaabc8d77') in 0.027323 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/russian_buildings/meshes/buildings/rus_build_9et_03.obj
+  artifactKey: Guid(d0a6918bd0bfaa94c9b006f0fbf838ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/buildings/rus_build_9et_03.obj using Guid(d0a6918bd0bfaa94c9b006f0fbf838ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f9853d7ebe30c03c48f4b71e365e3d') in 0.031403 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/russian_buildings/meshes/decorations/rus_build_dec_roof_01a.obj
+  artifactKey: Guid(9e0fb897119398d43b365fe15b3083c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/meshes/decorations/rus_build_dec_roof_01a.obj using Guid(9e0fb897119398d43b365fe15b3083c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4b12c0dbf83570cb7490a55a87f189') in 0.029587 seconds 
+Number of asset objects unloaded after import = 9
