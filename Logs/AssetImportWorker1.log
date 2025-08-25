@@ -15,7 +15,7 @@ C:/Users/cizao/Documents/Average Tumblr User Simulator/Average-User-Tumblr-Simul
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55312
+59921
 Successfully changed project path to: C:/Users/cizao/Documents/Average Tumblr User Simulator/Average-User-Tumblr-Simulator
 C:/Users/cizao/Documents/Average Tumblr User Simulator/Average-User-Tumblr-Simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/cizao/Documents/Average Tumblr User Simulator/Average-User-Tumblr-Simul
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9152] Host "[IP] 192.168.1.150 [Port] 0 [Flags] 2 [Guid] 256072684 [EditorId] 256072684 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OSRN4C6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15328] Host "[IP] 192.168.1.150 [Port] 0 [Flags] 2 [Guid] 2224015520 [EditorId] 2224015520 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OSRN4C6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9152] Host "[IP] 192.168.1.150 [Port] 0 [Flags] 2 [Guid] 256072684 [EditorId] 256072684 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OSRN4C6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15328] Host "[IP] 192.168.1.150 [Port] 0 [Flags] 2 [Guid] 2224015520 [EditorId] 2224015520 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OSRN4C6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 281.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 130.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.45f1 (0da89fac8e79)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Resources/UnitySubsystems
@@ -68,93 +68,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.032349 seconds.
+Registered in 0.013863 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 244.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 136.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.989 seconds
+- Completed reload, in  1.134 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2991ms)
-		BeginReloadAssembly (468ms)
+	ReloadAssembly (1135ms)
+		BeginReloadAssembly (167ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (2009ms)
-			LoadAssemblies (457ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (798ms)
+			LoadAssemblies (163ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (466ms)
+			SetupTypeCache (191ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (128ms)
-			SetupLoadedEditorAssemblies (1225ms)
-				LogAssemblyErrors (1ms)
-				InitializePlatformSupportModulesInManaged (44ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (245ms)
-				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (680ms)
-				ProcessInitializeOnLoadMethodAttributes (248ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (479ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.037516 seconds.
+Registered in 0.010177 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  3.240 seconds
+- Completed reload, in  2.161 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3242ms)
-		BeginReloadAssembly (345ms)
+	ReloadAssembly (2163ms)
+		BeginReloadAssembly (210ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (2587ms)
-			LoadAssemblies (264ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1775ms)
+			LoadAssemblies (157ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (634ms)
+			SetupTypeCache (448ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (112ms)
-			SetupLoadedEditorAssemblies (1568ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (1078ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (164ms)
-				ProcessInitializeOnLoadAttributes (1288ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
-				AfterProcessingInitializeOnLoad (28ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (894ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (19ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (46.4 KB). Loaded Objects now: 3556.
-Memory consumption went from 128.2 MB to 128.2 MB.
-Total: 7.053000 ms (FindLiveObjects: 0.705100 ms CreateObjectMapping: 0.164600 ms MarkObjects: 6.001700 ms  DeleteObjects: 0.178400 ms)
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (46.5 KB). Loaded Objects now: 3600.
+Memory consumption went from 147.0 MB to 147.0 MB.
+Total: 4.392900 ms (FindLiveObjects: 0.287200 ms CreateObjectMapping: 0.101700 ms MarkObjects: 3.745500 ms  DeleteObjects: 0.256200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,9 +170,109 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2012593.164555 seconds.
-  path: Assets/NewLayer.terrainlayer
-  artifactKey: Guid(a90c0e9ba1e0a7947bddafc16f378d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 333053.820145 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_03d.prefab
+  artifactKey: Guid(6e157f42486945e4ca027b80d70c0a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/NewLayer.terrainlayer using Guid(a90c0e9ba1e0a7947bddafc16f378d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3507885eab6ae91952be0934df307678') in 0.227142 seconds 
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_03d.prefab using Guid(6e157f42486945e4ca027b80d70c0a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ab1f869b78409f340a53390767a117') in 0.232440 seconds 
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_9et_01.prefab
+  artifactKey: Guid(167ccd36f78cceb46a4d150b76b96fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_9et_01.prefab using Guid(167ccd36f78cceb46a4d150b76b96fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48eee714c5414a8a3199e915ba9ea84') in 0.045526 seconds 
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_9et_03b.prefab
+  artifactKey: Guid(5eb69a259abef0b44b353ae0837d5764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_9et_03b.prefab using Guid(5eb69a259abef0b44b353ae0837d5764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b357401305ff4df469592f0e94c1aa5') in 0.047001 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_9et_03.prefab
+  artifactKey: Guid(7d2a3e6b10ff754459b3f619a0b22e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_9et_03.prefab using Guid(7d2a3e6b10ff754459b3f619a0b22e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd8270692c1b356e6389534f60f11ea') in 0.045665 seconds 
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/russian_buildings/prefabs/buildings/rus_build_5et_01a.prefab
+  artifactKey: Guid(cf782ee04eec8b34bb78b9bcf9dab92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/prefabs/buildings/rus_build_5et_01a.prefab using Guid(cf782ee04eec8b34bb78b9bcf9dab92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691f407528d4e172f2b2bf81f36a8359') in 0.032112 seconds 
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 120.136274 seconds.
+  path: Assets/russian_buildings/materials/rus_build_07.mat
+  artifactKey: Guid(0c23ef40be66ecd4798fde083370cf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_07.mat using Guid(0c23ef40be66ecd4798fde083370cf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6737d4962da1b4d811a250c6786e5da') in 0.090206 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/russian_buildings/materials/rus_build_13.mat
+  artifactKey: Guid(9fa9c577cc90e484185f297dfc8f3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_13.mat using Guid(9fa9c577cc90e484185f297dfc8f3ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d2870be822017afbd5d230c153bd2f') in 0.031590 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/russian_buildings/materials/rus_build_14.mat
+  artifactKey: Guid(164c4f11352f3bb4fbe8c9288293ac14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_14.mat using Guid(164c4f11352f3bb4fbe8c9288293ac14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea26b6489e4bc068e79d4669968edd41') in 0.030897 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/russian_buildings/materials/rus_build_12.mat
+  artifactKey: Guid(ddff7df3145ead144baf2bed8e8126cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_12.mat using Guid(ddff7df3145ead144baf2bed8e8126cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf50dcda31f269c7344412073808e6b') in 0.029102 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/russian_buildings/materials/rus_build_10.mat
+  artifactKey: Guid(57f7cf84b930e9c438072c06a3924c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_10.mat using Guid(57f7cf84b930e9c438072c06a3924c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e343c8ba2585c6d9912a91bbc100bb42') in 0.030155 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/russian_buildings/materials/rus_build_lod_01.mat
+  artifactKey: Guid(00773ef69a2a81f4fab18033027a6b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_lod_01.mat using Guid(00773ef69a2a81f4fab18033027a6b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff5c0b251db34200d329b90f8711153') in 0.281217 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/russian_buildings/materials/rus_build_lod_02.mat
+  artifactKey: Guid(e2c840c1583ce774a8ec106e4f4be702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_lod_02.mat using Guid(e2c840c1583ce774a8ec106e4f4be702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bf089e4b7b0bf42f471eb6b8627181') in 0.019580 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/russian_buildings/materials/rus_build_dec_01.mat
+  artifactKey: Guid(4471ad104f3340348bf5fa1a99da396c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/russian_buildings/materials/rus_build_dec_01.mat using Guid(4471ad104f3340348bf5fa1a99da396c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3dc5cf94a35e9833fd767090292313') in 0.017466 seconds 
 Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
