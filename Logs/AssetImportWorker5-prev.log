@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.45f1\Editor\Unity.exe
 -name
 AssetImportWorker5
 -projectPath
-C:/Users/cizao/Average Tumblr User Simulator
+C:/Users/cizao/Documents/Average Tumblr User Simulator/Average-User-Tumblr-Simulator
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-53640
-Successfully changed project path to: C:/Users/cizao/Average Tumblr User Simulator
-C:/Users/cizao/Average Tumblr User Simulator
+63719
+Successfully changed project path to: C:/Users/cizao/Documents/Average Tumblr User Simulator/Average-User-Tumblr-Simulator
+C:/Users/cizao/Documents/Average Tumblr User Simulator/Average-User-Tumblr-Simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,16 +47,16 @@ C:/Users/cizao/Average Tumblr User Simulator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10520] Host "[IP] 192.168.1.150 [Port] 0 [Flags] 2 [Guid] 1818622620 [EditorId] 1818622620 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OSRN4C6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23084] Host "[IP] 192.168.1.150 [Port] 0 [Flags] 2 [Guid] 3029827061 [EditorId] 3029827061 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OSRN4C6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10520] Host "[IP] 192.168.1.150 [Port] 0 [Flags] 2 [Guid] 1818622620 [EditorId] 1818622620 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OSRN4C6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23084] Host "[IP] 192.168.1.150 [Port] 0 [Flags] 2 [Guid] 3029827061 [EditorId] 3029827061 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-OSRN4C6S) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 190.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.45f1 (0da89fac8e79)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/cizao/Average Tumblr User Simulator/Assets
+[Subsystems] Discovering subsystems at path C:/Users/cizao/Documents/Average Tumblr User Simulator/Average-User-Tumblr-Simulator/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -68,93 +68,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.020728 seconds.
+Registered in 0.028303 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 145.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 128.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.709 seconds
+- Completed reload, in  0.999 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1710ms)
-		BeginReloadAssembly (271ms)
+	ReloadAssembly (999ms)
+		BeginReloadAssembly (189ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1165ms)
-			LoadAssemblies (265ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (280ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (711ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (420ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (146ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (387ms)
-				ProcessInitializeOnLoadMethodAttributes (155ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016148 seconds.
+Registered in 0.020421 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  3.169 seconds
+- Completed reload, in  2.166 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3171ms)
-		BeginReloadAssembly (339ms)
+	ReloadAssembly (2167ms)
+		BeginReloadAssembly (160ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (19ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (2503ms)
-			LoadAssemblies (231ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1839ms)
+			LoadAssemblies (176ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (742ms)
+			SetupTypeCache (354ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (135ms)
-			SetupLoadedEditorAssemblies (1333ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (1202ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (1111ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (23ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (1054ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (47.3 KB). Loaded Objects now: 3582.
-Memory consumption went from 141.3 MB to 141.3 MB.
-Total: 8.184400 ms (FindLiveObjects: 0.669900 ms CreateObjectMapping: 0.329700 ms MarkObjects: 7.010900 ms  DeleteObjects: 0.170200 ms)
+Unloading 3154 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (47.2 KB). Loaded Objects now: 3646.
+Memory consumption went from 209.8 MB to 209.8 MB.
+Total: 3.674100 ms (FindLiveObjects: 0.279300 ms CreateObjectMapping: 0.116300 ms MarkObjects: 3.128700 ms  DeleteObjects: 0.148500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,69 +170,238 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1915370.138554 seconds.
-  path: Assets/russian_buildings/textures/rus_build_01_s.png
-  artifactKey: Guid(31c614827e49bca4e84dc40de76059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 11288.085355 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_banknote_2 Variant.prefab
+  artifactKey: Guid(07c9035ee421abe4fb48dafa6fbb9819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/russian_buildings/textures/rus_build_01_s.png using Guid(31c614827e49bca4e84dc40de76059cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c889828fa81a957015bc3662cfdef3') in 0.227655 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/jewelry_shop/Prefabs/props/SM_banknote_2 Variant.prefab using Guid(07c9035ee421abe4fb48dafa6fbb9819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a3307d9a5043ddd602e9e52f08e80e') in 0.249756 seconds 
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/russian_buildings/textures/rus_build_LOD_02.png
-  artifactKey: Guid(62da88ce44d49764b91100a52cc54548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000032 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_mirror_1 Variant.prefab
+  artifactKey: Guid(be93ab3418dc1cf45b1bbf6a4a4be0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/russian_buildings/textures/rus_build_LOD_02.png using Guid(62da88ce44d49764b91100a52cc54548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42798a5d4f0fe061fd2b7925ee641619') in 0.026193 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/jewelry_shop/Prefabs/props/SM_mirror_1 Variant.prefab using Guid(be93ab3418dc1cf45b1bbf6a4a4be0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48606a2d57bdbc82b8acb04d8a699d4b') in 0.047374 seconds 
+Number of asset objects unloaded after import = 19
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/russian_buildings/textures/rus_build_03.png
-  artifactKey: Guid(396ccf456224e824bb27e11e6cc4f641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000081 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_bracelet_2 Variant.prefab
+  artifactKey: Guid(73918e6ebbd3bd04785a7db3f9c359a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/russian_buildings/textures/rus_build_03.png using Guid(396ccf456224e824bb27e11e6cc4f641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a0e801dd9eeeb61e7f85d370df13c4') in 0.022686 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/jewelry_shop/Prefabs/props/SM_bracelet_2 Variant.prefab using Guid(73918e6ebbd3bd04785a7db3f9c359a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27404706d30e716d74a1aebf633e4e1b') in 0.028225 seconds 
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/russian_buildings/textures/rus_build_17.png
-  artifactKey: Guid(0decba82cb0d4eb4e8840b5b450910af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000024 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_necklace Variant.prefab
+  artifactKey: Guid(c83c2af7d459d5e44a3dd7e476b0f2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/russian_buildings/textures/rus_build_17.png using Guid(0decba82cb0d4eb4e8840b5b450910af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1d7382bab96eba5c9d027d94e44351') in 0.031623 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/jewelry_shop/Prefabs/props/SM_necklace Variant.prefab using Guid(c83c2af7d459d5e44a3dd7e476b0f2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e3d79d5b9f7100aaba30c2743e6be3') in 0.030703 seconds 
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/russian_buildings/textures/rus_build_07.png
-  artifactKey: Guid(a9a0a885c2eede34587e12cd1414003c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000020 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_chain_1 Variant.prefab
+  artifactKey: Guid(b9d6455490046b04a9d241724130018b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/russian_buildings/textures/rus_build_07.png using Guid(a9a0a885c2eede34587e12cd1414003c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d620d1b3b2a5bca6ef843ce0c8c03eb') in 0.025110 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/jewelry_shop/Prefabs/props/SM_chain_1 Variant.prefab using Guid(b9d6455490046b04a9d241724130018b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6297d05903db723fccb0114e0e3db235') in 0.026887 seconds 
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/russian_buildings/textures/rus_build_15_s.png
-  artifactKey: Guid(8f2c78467f0bba249a13277b678dfe28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/jewelry_shop/Prefabs/props/SM_bracelet Variant.prefab
+  artifactKey: Guid(56c669f404162c84480387b2dca6ef26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/russian_buildings/textures/rus_build_15_s.png using Guid(8f2c78467f0bba249a13277b678dfe28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589a715c073e3058b46404df4d07ff60') in 0.025165 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/jewelry_shop/Prefabs/props/SM_bracelet Variant.prefab using Guid(56c669f404162c84480387b2dca6ef26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802980d9c05acd4f893b7a97ffb32c1a') in 0.027401 seconds 
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/russian_buildings/textures/rus_build_08_h.png
-  artifactKey: Guid(7d78c692edad1614f8ef970603cecdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000022 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_chain_2 Variant.prefab
+  artifactKey: Guid(90bf4ec0b4f6e634ca57556700e5ad83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/russian_buildings/textures/rus_build_08_h.png using Guid(7d78c692edad1614f8ef970603cecdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc4126174a36bfee8f70a66a411ab7b') in 0.023307 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/jewelry_shop/Prefabs/props/SM_chain_2 Variant.prefab using Guid(90bf4ec0b4f6e634ca57556700e5ad83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac1674671eb4856fbfa2f74e727b648') in 0.030772 seconds 
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/russian_buildings/textures/rus_build_dec_01.png
-  artifactKey: Guid(24ae1851ee4bd6b40903851f84596cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000025 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_bracelet_4 Variant.prefab
+  artifactKey: Guid(ecc4adfe7ac4bb74d9f9e0642a1f08c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/russian_buildings/textures/rus_build_dec_01.png using Guid(24ae1851ee4bd6b40903851f84596cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846878866bbe6d7df3366c826105d3c1') in 0.022912 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/jewelry_shop/Prefabs/props/SM_bracelet_4 Variant.prefab using Guid(ecc4adfe7ac4bb74d9f9e0642a1f08c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd45ac102497601f3d43e8ada8b42ad') in 0.026025 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_inscription_1 Variant.prefab
+  artifactKey: Guid(d3d37a276a7c40a4ebfff4d7301f2c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_inscription_1 Variant.prefab using Guid(d3d37a276a7c40a4ebfff4d7301f2c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8052c8bfd9e39275e75d584188f9368') in 0.041238 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_folded_money Variant.prefab
+  artifactKey: Guid(e9931204f4758914eb0add4799816242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_folded_money Variant.prefab using Guid(e9931204f4758914eb0add4799816242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ddf9388108bcb2fab62e87e7984bd9') in 0.031980 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_bundle_of_money_3 Variant.prefab
+  artifactKey: Guid(343afa9355df1bb49993b3cc207f48a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_bundle_of_money_3 Variant.prefab using Guid(343afa9355df1bb49993b3cc207f48a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc8fc78d2a434febf8e48f74086b8f4') in 0.019580 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 271.815259 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_necklace_4 Variant.prefab
+  artifactKey: Guid(554a3374e1acf0b4eac73c1478d46e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_necklace_4 Variant.prefab using Guid(554a3374e1acf0b4eac73c1478d46e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f20b2d0c41bdfd8641a7b3270299bca') in 0.035190 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_necklace_6 Variant.prefab
+  artifactKey: Guid(a664fe5447d6ea841878bebba37c6b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_necklace_6 Variant.prefab using Guid(a664fe5447d6ea841878bebba37c6b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0850fbda89476c34d3cb4a132025cd') in 0.024737 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_pendant_2 Variant.prefab
+  artifactKey: Guid(a0d42be6bf4ac0e4baacaf3b82906c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_pendant_2 Variant.prefab using Guid(a0d42be6bf4ac0e4baacaf3b82906c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a2f5d043d7f4c3fe0573d75ea7d36b') in 0.025024 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_pendant_1 Variant.prefab
+  artifactKey: Guid(c265c8a5a2f2c55489c85fc10c169545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_pendant_1 Variant.prefab using Guid(c265c8a5a2f2c55489c85fc10c169545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2ac4e6e93dbb713353f1f6f0256cb8') in 0.021290 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_ring_9 Variant.prefab
+  artifactKey: Guid(25a307cfcb4cafd46bbc948c147816a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_ring_9 Variant.prefab using Guid(25a307cfcb4cafd46bbc948c147816a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bda3bebe750d851b949f8332061b1aa') in 0.029111 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_stand_1 Variant.prefab
+  artifactKey: Guid(f4c535672e7e3d44a87f7136c7223731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_stand_1 Variant.prefab using Guid(f4c535672e7e3d44a87f7136c7223731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8347680d9e645ca8a3af8c22aa82156') in 0.026954 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_stand_3 Variant.prefab
+  artifactKey: Guid(3202e4329fede6d4683b65f995f05d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_stand_3 Variant.prefab using Guid(3202e4329fede6d4683b65f995f05d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78099f7b2d633aad4fbb6e9f3279912') in 0.026520 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_safe Variant.prefab
+  artifactKey: Guid(c8ab20d5b7985d546b55d37d9a5b596d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_safe Variant.prefab using Guid(c8ab20d5b7985d546b55d37d9a5b596d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9deb7b037d0d5cd077050dd5c3cd9130') in 0.030271 seconds 
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_stand_5 Variant.prefab
+  artifactKey: Guid(7ac9538772da685448900a546947fdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_stand_5 Variant.prefab using Guid(7ac9538772da685448900a546947fdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0835d337017bce85d8494068ef54ec2') in 0.023257 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_necklace_9 Variant.prefab
+  artifactKey: Guid(dc788e44dbbf1c542b2eb3609b5b2da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_necklace_9 Variant.prefab using Guid(dc788e44dbbf1c542b2eb3609b5b2da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a41aefee730691a271df6f98ef6246') in 0.024400 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_stand Variant.prefab
+  artifactKey: Guid(104a1a4deb36ff9428a92b9d05059b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_stand Variant.prefab using Guid(104a1a4deb36ff9428a92b9d05059b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68810bbc14e5c190bf095772c12061a1') in 0.025734 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_stand_2 Variant.prefab
+  artifactKey: Guid(11f4986a67fc4a949bc7ba5fde79d59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_stand_2 Variant.prefab using Guid(11f4986a67fc4a949bc7ba5fde79d59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb660fdb6c1e0c66f055bf2e6d87a95') in 0.025900 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_necklace_8 Variant.prefab
+  artifactKey: Guid(a8e083eea9f955844aaf17025e6cf02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_necklace_8 Variant.prefab using Guid(a8e083eea9f955844aaf17025e6cf02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2e98d54b40d2bedb8ee0db54e7a7ea') in 0.026500 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_pendant Variant.prefab
+  artifactKey: Guid(be075e458bfde774ba3cfa3899165c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_pendant Variant.prefab using Guid(be075e458bfde774ba3cfa3899165c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb41c1e389935dd0c3a1c6f1b501c42') in 0.024651 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_ring_5 Variant.prefab
+  artifactKey: Guid(a82bdaae68cee4e40b1486d9df2e7108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_ring_5 Variant.prefab using Guid(a82bdaae68cee4e40b1486d9df2e7108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3db1294bee56d39a710c3b0463b5f09') in 0.025468 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_necklace_7 Variant.prefab
+  artifactKey: Guid(240771cde08f44443b75342f5a2c75d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_necklace_7 Variant.prefab using Guid(240771cde08f44443b75342f5a2c75d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da5572ff8f5a329cbce8ffd620a4c90') in 0.029208 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_twisted_money Variant.prefab
+  artifactKey: Guid(935d4b6109736b6418ea2ad84c47e214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_twisted_money Variant.prefab using Guid(935d4b6109736b6418ea2ad84c47e214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec67adda24a162cdfa5ed694f69c459') in 0.020366 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/jewelry_shop/Prefabs/props/SM_ring_3 Variant.prefab
+  artifactKey: Guid(9385c2571eeed3a4ba4c1a3c3bc585bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/jewelry_shop/Prefabs/props/SM_ring_3 Variant.prefab using Guid(9385c2571eeed3a4ba4c1a3c3bc585bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18765aee39f8e8fd4bd18be06cf57412') in 0.024551 seconds 
+Number of asset objects unloaded after import = 19
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
